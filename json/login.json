@@ -1,0 +1,20 @@
+{
+    "RECORDS": [
+        {
+            "username": "jack",
+            "password": "qwer"
+        },
+        {
+            "username": "gkw",
+            "password": "qwer"
+        },
+        {
+            "username": "niu",
+            "password": "123"
+        },
+        {
+            "username": "",
+            "password": ""
+        }
+    ]
+}

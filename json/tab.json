@@ -1,0 +1,106 @@
+{
+    "RECORDS": [
+        {
+            "oid": "1",
+            "series": "Find",
+            "img": "tab1.png",
+            "p": "Find X"
+        },
+        {
+            "oid": "2",
+            "series": "Find",
+            "img": "tab2.png",
+            "p": "Find X 超级闪充版"
+        },
+        {
+            "oid": "3",
+            "series": "Find",
+            "img": "tab3.png",
+            "p": "Find X 兰博基尼版"
+        },
+        {
+            "oid": "4",
+            "series": "Reno",
+            "img": "tab4.png",
+            "p": "Reno"
+        },
+        {
+            "oid": "5",
+            "series": "Reno",
+            "img": "tab5.png",
+            "p": "Reno 10 倍变焦版"
+        },
+        {
+            "oid": "6",
+            "series": "R",
+            "img": "tab6.png",
+            "p": "R17 Pro"
+        },
+        {
+            "oid": "7",
+            "series": "R",
+            "img": "tab7.png",
+            "p": "R17"
+        },
+        {
+            "oid": "8",
+            "series": "R",
+            "img": "tab8.png",
+            "p": "R15X"
+        },
+        {
+            "oid": "9",
+            "series": "A",
+            "img": "tab9.png",
+            "p": "A9"
+        },
+        {
+            "oid": "10",
+            "series": "A",
+            "img": "tab10.png",
+            "p": "A7"
+        },
+        {
+            "oid": "11",
+            "series": "A",
+            "img": "tab11.png",
+            "p": "A7x"
+        },
+        {
+            "oid": "12",
+            "series": "A",
+            "img": "tab12.png",
+            "p": "A5"
+        },
+        {
+            "oid": "13",
+            "series": "K",
+            "img": "tab13.png",
+            "p": "K1"
+        },
+        {
+            "oid": "14",
+            "series": "配件",
+            "img": "tab14.png",
+            "p": "O-Fresh 立体声耳机"
+        },
+        {
+            "oid": "15",
+            "series": "配件",
+            "img": "tab15.png",
+            "p": "超级闪充车载充电器"
+        },
+        {
+            "oid": "16",
+            "series": "配件",
+            "img": "tab16.png",
+            "p": "O-Free无线耳机"
+        },
+        {
+            "oid": "17",
+            "series": "配件",
+            "img": "tab17.png",
+            "p": "更多配件"
+        }
+    ]
+}

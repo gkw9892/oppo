@@ -1,0 +1,36 @@
+function Register(){
+    this.init();
+}
+Register.prototype={
+    init:function(){
+        this.register();
+    },
+    register:function(){
+        this.d4h2=document.getElementById("d4h2");
+        this.username=document.getElementById("username");
+        this.password=document.getElementById("password");
+        this.d4h2.addEventListener("submit",this.registerCb.bind(this));
+    },
+    registerCb:function(e){
+        var e= e||event;
+        e.preventDefault();
+        axios({
+            method:"post",
+            url:"../php/register.php",
+            data:{
+                username:this.username.value,
+                password:this.password.value
+            }
+        }).then(this.toregisterCb.bind(this))
+    },
+    toregisterCb:function(data){
+        if(data.status){
+            alert("注册成功");
+            setTimeout(function(){
+                location.href="login.html";
+            },2000);
+        }else{
+            alert(data.info,"请重新注册");
+        }
+    },
+}

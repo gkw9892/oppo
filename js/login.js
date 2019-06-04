@@ -1,0 +1,33 @@
+function Login(){
+    this.init();
+}
+Login.prototype={
+    init:function(){
+        this.submit();
+    },
+    submit:function(){
+        this.d4h2=document.getElementById("d4h2");
+        this.username=document.getElementById("username");
+        this.password=document.getElementById("password");
+        this.d4h2.addEventListener("submit",this.submitCb.bind(this));
+    },
+    submitCb:function(e){
+        var e= e||event;
+        e.preventDefault();
+        axios({
+            method:"post",
+            url:"../php/login.php",
+            data:{
+                username:this.username.value,
+                password:this.password.value
+            }
+        }).then(this.tosubmitCb.bind(this))
+    },
+    tosubmitCb:function(data){
+        if(data.status){
+            location.href="list.html";
+        }else{
+            alert(data.info+"请注册账号");
+        }
+    },
+}

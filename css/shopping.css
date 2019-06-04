@@ -1,0 +1,345 @@
+body,div,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,dt,form,fieldset,legend,input,textarea,select,header,section,footer{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+img{border:none;vertical-align:middle;}
+html,body{
+    height:100%;
+}
+
+.headerbj{
+    width: 100%;
+    height: 60px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+.header{
+    width: 1200px;  
+    height: 60px;
+    margin: 0 auto;
+    /* background: #ccc;     */
+}
+.header h1{
+    width: 83px;
+    height: 60px;
+    margin-left:21px;
+    float: left;    
+}
+.header h1 a{
+    display: block;
+    width: 83px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.header h1 a img{
+    display: block;
+    margin-top:21px; 
+}
+.header .tab{
+    margin-left: 113px;
+    float: left;
+}
+.header .tab li{
+    float: left;
+}
+.header .tab li:hover a{
+    color: #d0d0d0;
+}
+.header .tab li a{
+    display: block;
+    padding: 0 25px;
+    color: #333;
+    font:14px/60px "微软雅黑";
+}
+.tabControl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 330px;
+    background: #fff;
+    /* z-index: 888; */
+}
+.tabControl ul{
+    min-width: 200px;
+    height: 200px;
+    margin:80px  auto  0;
+}
+.tabControl ul li{
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+    /* background: #ccc; */
+    float: left;
+}
+.tabControl ul li:hover p{
+    color: #d0d0d0;
+}
+.tabControl ul li i{
+    display: block;
+    width: 140px;
+    height: 140px;
+}
+.tabControl ul li i img{
+    width: 100%;
+}
+.tabControl ul li p{
+    text-align: center;
+    color: #333;
+    margin-top:10px; 
+}
+.header .icon{
+    width: 34px;
+    height: 60px;
+    float: right;
+}
+.header .icon a{
+    display: block;
+    width: 24px;
+    height: 60px;  
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0 5px;
+}
+.header .icon a i{
+    margin-top: 16px;
+    color: #000;
+    display: block;
+    font-size: 24px;  
+}
+.header .icon2{
+    width: 270px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0 1px 2px 0 rgba(102,102,102,0.5);
+    position: absolute;
+    top: 65px;
+    right: 225px;
+    display: none;
+}
+.header .icon2 li{
+    display: block;
+    padding: 18px 0;
+    margin: 0 28px;
+    box-sizing: border-box;
+    border-bottom: 1px rgba(0,0,0,0.082) solid;
+}
+.header .icon2 li:nth-child(3){
+    border-bottom:none;
+}
+.header .icon2 li a{
+    display: block;
+    white-space: nowrap;
+}
+.header .icon2 li a:hover i{
+    color: #d0d0d0;
+}
+.header .icon2 li a:hover span{
+    color: #d0d0d0;
+}
+.header .icon2 li a i{
+    display: block;
+    margin: 0 20px 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+.header .icon2 li a span{
+    font: 16px/28px "微软雅黑";
+    color: #333;
+    margin-left: 20px;
+}
+.d1hbj{
+    width: 1920px;
+    min-height: 300px;
+    background: #f5f5f5;
+    margin: 60px  auto 0;
+    position: relative;
+    overflow: hidden;
+}
+.d1h{
+    width: 1120px;
+    min-height:300px;
+    background: #fff;
+    margin: 60px auto  100px;
+    padding: 30px 40px;
+    overflow: hidden;
+}
+.d1h h3{
+    color: #333;
+    font: normal 18px/24px "微软雅黑";
+    height: 41px;
+    border-bottom: 1px solid #ededed; 
+}
+.d1h2{
+    width: 1120px;
+    min-height: 121px;
+}
+.goods{
+    width: 1120px;
+    height: 80px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ededed; 
+}
+.goods li{
+    float: left;
+}
+.goods .fxk{
+    height: 80px;
+    width: 24px;
+    padding: 0 38px;
+}
+.goods .fxk input{
+    width: 24px;
+    height: 24px;
+    margin-top: 28px;
+}
+.goods .img{
+    width: 80px;
+    height: 80px;
+    padding: 0 70px 0 20px;
+}
+.goods .img img{
+    width: 100%;
+    height: 100%;
+}
+.goods .name{
+    width: 284px;
+    margin-top: 34px;
+    font: 14px/14px "微软雅黑";
+    color: #333;
+    min-height: 14px;
+}
+.goods .price{
+    width: 220px;
+    margin-top: 34px;
+    font: 14px/14px "微软雅黑";
+    color: #333;
+    min-height: 14px;
+}
+.goods .button{
+    margin-top: 16px;
+}
+.goods .button button{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 42px;
+    border-style:none;
+    background: #fff; 
+    font-size: 26px;
+    color: #666;
+}
+.goods .button button:nth-of-type(1){
+    border: 1px solid #dce1e4;
+    border-right: none;
+}
+.goods .button button:nth-of-type(2){
+    border: 1px solid #dce1e4;
+    border-left: none;
+}
+.goods .button input{
+    display: block;
+    float: left;
+    width: 48px;
+    height: 40px;
+    border-style:none;
+    background: #fff; 
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    border-bottom: 1px solid #dce1e4;
+    border-top: 1px solid #dce1e4;
+}
+.goods .del{
+    width: 196px;
+    height: 19px;
+    margin-top: 29px; 
+}
+.goods .del a{
+    display: block;
+    width: 19px;
+    height: 19px;
+    margin-left: 165px;
+    background: url(../img/shopping_d1h21.png) no-repeat;
+}
+.d1h3{
+    margin: 56px 0 0 0; 
+    width: 1120px;
+    height: 55px;
+}
+.d1h3 a{
+    display: block;
+    width: 92px;
+    height: 18px;
+    float: left;
+    background:  url(../img/shopping_d1h31.png) no-repeat;
+    padding-left:37px;
+    font: 12px/18px "微软雅黑";
+    color:#333;
+}
+.d1h3 p{
+    float: right;
+}
+.d1h3 p span{
+    font: 26px/26px "微软雅黑";
+    color: #333;
+}
+.d1h4{
+    width: 1120px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.d1h4 a{
+    float: right;
+    width: 196px;
+    height: 60px;
+    background: #05b570;
+    border-radius: 3px;
+    text-align: center;
+    font: 16px/60px "微软雅黑";
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 1920px;
+    height: 623px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+}
